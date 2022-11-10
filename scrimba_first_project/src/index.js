@@ -3,22 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import image from './logo192.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const navbar = (
+const facts = (
   <nav>
-    <h1>Navbar practice</h1>
+    <img src={image} alt="react logo" width="40px" />
+    <h1>Fun facts about React</h1>
     <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was first released in 2013</li>
+      <li>Was originially created by Jordan Walke</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </nav>
 )
 
 root.render(
-  navbar
+  facts
 );
 
 // root.render(
