@@ -1,28 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import image from './logo192.png';
-
-function Header() {
-  return (
-    <header className="nav">
-      <img className="nav-logo" src={image} alt="react logo" />
-      <ul className="nav-items">
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </header>
-  )
-}
-
-function Footer() {
-  return (
-    <footer><small>Practice Footer</small></footer>
-  )
-}
+import Header from './Header';
+import Footer from './Footer';
 
 function ReactReasons() {
   return (
