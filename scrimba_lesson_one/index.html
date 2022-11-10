@@ -10,12 +10,21 @@
 <body>
   <div id="root"></div>
   <script type="text/babel">
+    function CustomComponent() {
+      return (
+        <h1>This is a test of adding a custom component in React!</h1>
+      )
+    }
+
     ReactDOM.render(
-      // <h1>Heya</h1>
-      <ul>List Items
-        <li>item #1</li>
-        <li>item #2</li>
-      </ul>, document.getElementById("root"))
+      <div>
+        <h1>Heya</h1>
+        <ul>List Items
+          <li>item #1</li>
+          <li>item #2</li>
+        </ul>
+        <CustomComponent />
+      </div>, document.getElementById("root"))
   </script>
 </body>
 
