@@ -5,24 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import image from './logo192.png';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+function ReactReasons() {
+  return (
+    <div>
+      <h1>Reasons I'm learning React</h1>
+      <ul>
+        <li>It's fun!</li>
+        <li>React is one of if not the most popular frontend framework</li>
+        <li>React has a lot of utility and some really cool design features</li>
+      </ul>
+    </div>
+  )
+}
 
-const facts = (
-  <nav>
-    <img src={image} alt="react logo" width="40px" />
-    <h1>Fun facts about React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originially created by Jordan Walke</li>
-      <li>Has well over 100k stars on Github</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-    </ul>
-  </nav>
-)
-
-root.render(
-  facts
-);
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<ReactReasons />)
 
 // root.render(
 //   <React.StrictMode>
