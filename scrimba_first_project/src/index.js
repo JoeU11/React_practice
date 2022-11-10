@@ -7,8 +7,13 @@ import image from './logo192.png';
 
 function Header() {
   return (
-    <header>
-      <img src={image} alt="react logo" width="40px" />
+    <header className="nav">
+      <img className="nav-logo" src={image} alt="react logo" />
+      <ul className="nav-items">
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </header>
   )
 }
