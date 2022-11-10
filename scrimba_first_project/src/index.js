@@ -5,6 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import image from './logo192.png';
 
+function Header() {
+  return (
+    <header>
+      <img src={image} alt="react logo" width="40px" />
+    </header>
+  )
+}
+
+function Footer() {
+  return (
+    <footer><small>Practice Footer</small></footer>
+  )
+}
+
 function ReactReasons() {
   return (
     <div>
@@ -18,8 +32,18 @@ function ReactReasons() {
   )
 }
 
+function Page() {
+  return (
+    <div>
+      <Header />
+      <ReactReasons />
+      <Footer />
+    </div>
+  )
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<ReactReasons />)
+root.render(<Page />)
 
 // root.render(
 //   <React.StrictMode>
