@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(51, 48, 48);
 }
 
 code {
@@ -17,16 +18,52 @@ code {
   display: flex;
 }
 
+#title {
+  margin-right: auto;
+  padding-left: 10px;
+  color: #61DAFB;
+}
+
+#main {
+  padding: 57px 27px;
+  color: white;
+}
+
+#main>ul>li {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-block: 8px;
+}
+
+#main>ul>li::marker {
+  font-size: 1.5rem;
+  color: #61DAFB;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(27, 25, 25);
 }
 
 .nav-items>li {
   padding: 10px;
+  font-size: 22x;
+  font-weight: 600;
+  color: white;
 }
 
 .nav-logo {
   width: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(20, 19, 19);
 }

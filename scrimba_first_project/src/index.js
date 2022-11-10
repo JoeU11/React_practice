@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 function ReactReasons() {
   return (
-    <div>
+    <div id="main">
       <h1>Reasons I'm learning React</h1>
       <ul>
         <li>It's fun!</li>
