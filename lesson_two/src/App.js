@@ -8,7 +8,14 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg"
+        review_score="5.0"
+        review_total="10"
+        country="USA"
+        description="Life lessons with the Rock"
+        price="150"
+      />
     </div >
   );
 }
