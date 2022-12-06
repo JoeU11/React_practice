@@ -13,6 +13,18 @@
   }
 }
 
+#nav {
+  display: flex;
+  align-content: left;
+  background-color: antiquewhite;
+
+}
+
+#nav-logo {
+  width: 65px;
+  margin: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
