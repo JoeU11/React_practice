@@ -14,6 +14,7 @@ function App() {
       name={player.name}
       team={player.team}
       number={player.number}
+      inWorldCup={player.inWorldCup}
     />
   })
 
