@@ -1,10 +1,10 @@
-export default function Player() {
+export default function Player(player) {
   return (
     <section className="player">
-      <img src="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSxbdZSdit4NGau-z7HTdSr17bOFmV4txAy5H-FMcDf6o9pbmUWSSxrbpYGrMqcQcfvs1HYRJhXylYs-f0" alt="Luka Modric" className="player-image" />
-      <h2 className="player-name">Luka Modric</h2>
-      <p>Team: Real Madrid</p>
-      <p>Number: 10</p>
+      <img src={player.img} className="player-image" />
+      <h2 className="player-name">{player.name}</h2>
+      <p>Team: {player.team}</p>
+      <p>Number: {player.number}</p>
     </section>
   )
 }
