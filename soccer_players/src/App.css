@@ -26,11 +26,24 @@
 }
 
 .player {
-  margin-top: 15px;
+  width: 300px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#player-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .player-image {
-  max-width: 500px;
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
 }
 
 .App-header {

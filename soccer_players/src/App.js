@@ -19,7 +19,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {playerElements}
+      <section id="player-list">
+        {playerElements}
+      </section>
     </div>
   );
 }
