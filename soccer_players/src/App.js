@@ -10,11 +10,7 @@ function App() {
     console.log("generating player elements")
     return <Player
       key={player.id}
-      img={player.img}
-      name={player.name}
-      team={player.team}
-      number={player.number}
-      inWorldCup={player.inWorldCup}
+      player={player}
     />
   })
 
