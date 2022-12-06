@@ -9,6 +9,7 @@ function App() {
   const playerElements = players.map(player => {
     console.log("generating player elements")
     return <Player
+      key={player.id}
       img={player.img}
       name={player.name}
       team={player.team}
