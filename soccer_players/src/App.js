@@ -10,7 +10,8 @@ function App() {
     console.log("generating player elements")
     return <Player
       key={player.id}
-      player={player}
+      // player={player}
+      {...player}
     />
   })
 
