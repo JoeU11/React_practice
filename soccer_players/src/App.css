@@ -25,6 +25,14 @@
   margin: 10px;
 }
 
+.player {
+  margin-top: 15px;
+}
+
+.player-image {
+  max-width: 500px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
