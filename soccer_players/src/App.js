@@ -3,14 +3,11 @@ import './App.css';
 import Header from "./components/header"
 import Player from "./components/player"
 import axios from 'axios';
-
-// function getData() {
-//   axios.get("http://localhost:3000/players").then(response => (
-//     response = response.data
-//   ))
-// }
+import players from './playersData'
 
 function App() {
+  console.log(players)
+
   return (
     <div className="App">
       <Header />
